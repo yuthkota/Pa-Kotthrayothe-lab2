@@ -1,0 +1,38 @@
+Part 1: Containerize an application
+•	Learned how to write a Dockerfile to package a simple application.
+•	Understood the difference between an image and a container.
+•	Used docker build to create an image and docker run to start a container.
+•	Learned about exposed ports and how to map host ports to container ports.
+Part 2: Update the application
+•	Learned how updating source code requires rebuilding the image.
+•	Used image tagging to manage different versions.
+•	Understood how Docker caches layers, which speeds up builds.
+•	Saw how containerization makes updating the app consistent across machines.
+Part 3: Share the application
+•	Logged in to Docker Hub and tagged images for pushing.
+•	Learned how to push images to Docker Hub and pull them from another machine.
+•	Understood how registries enable easy distribution of containerized apps.
+Part 4: Persist the DB
+•	Learned that containers are ephemeral and data disappears unless stored.
+•	Used Docker volumes to persist database data.
+•	Understood the difference between container storage and external volumes.
+Part 5: Use bind mounts
+•	Used bind mounts to sync local files with a running container.
+•	Saw how this enables live development without rebuilding the image.
+•	Learned when to use bind mounts vs. volumes.
+Part 6: Multi-container apps
+•	Deployed an app that required multiple services (app + database).
+•	Learned how containers communicate using Docker networks.
+•	Understood how to define dependencies between containers.
+Part 7: Use Docker Compose
+•	Learned about docker-compose.yml for defining multi-container applications.
+•	Used docker compose up and docker compose down to manage services easily.
+•	Saw how Compose handles networks, volumes, and build steps automatically.
+Part 8: Image-building best practices
+•	Learned to minimize image size using .dockerignore and proper layering.
+•	Understood why small and efficient images reduce build time and security risks.
+•	Saw best practices like pinning versions, multi-stage builds, and reducing attack surface.
+Part 9: What next
+•	Explored additional Docker features such as orchestration, CI/CD, and cloud deployment.
+•	Learned the next steps for using containers in real-world workflows.
+
